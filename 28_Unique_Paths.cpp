@@ -134,7 +134,7 @@ Time complexity = O(m-1,m-1)
 space complexity = O(m*n)
 
 //Approach 3 : DP
-    class Solution {
+class Solution {
 public:
     int uniquePaths(int m, int n) {
         vector<vector<int>> dp(m, vector<int>(n, 0));
